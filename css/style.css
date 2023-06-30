@@ -1,0 +1,16 @@
+.grid-wrapper {
+    /* apply css grid to any block-level element that has this class */
+    display: grid;
+    /* set width of columns and by default the number of columns in the grid*/
+    grid-template-columns: 100px 100px 100px;
+}
+.grid-item {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.grid-item:nth-child(even) {
+    background-color: white;
+    color: black;
+}
